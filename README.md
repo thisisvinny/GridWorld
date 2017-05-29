@@ -13,7 +13,7 @@
 ### Carnivores
 - Navigating around plants
 - Radius to find prey
-..- Radius changes with age
+    - Radius changes with age
 - Charging at prey
 - Destroying plants
 
