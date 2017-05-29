@@ -1,3 +1,6 @@
+// TODO: ADD THREE HERBIVORE LINKED LISTS AND ADD NEXT NODE TO 
+// EACH HERBIVORE
+
 public class Herder extends Entity {
 	public Herder(int x, int y){
 		super(x, y);
