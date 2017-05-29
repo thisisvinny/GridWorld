@@ -7,13 +7,15 @@ import java.util.Random;
 public abstract class Animal extends Entity {
     private int currentEnergy;
     private boolean moved, energyDepleted, gaveBirth;
-    public static final int MAX_ENERGY_SO_STOP_EAT = 15;
-    public static final int MIN_ENERGY_TO_GIVE_BIRTH = 10;
-    public static final int MIN_AGE_TO_GIVE_BIRTH = 7;
-
+    // public static final int MAX_ENERGY_SO_STOP_EAT = 30;
+    // public static final int MIN_ENERGY_TO_GIVE_BIRTH = 10;
+    // public static final int MIN_AGE_TO_GIVE_BIRTH = 7;
+    public int MAX_ENERGY_SO_STOP_EAT;
+    public int MIN_ENERGY_TO_GIVE_BIRTH;
+    public int MIN_AGE_TO_GIVE_BIRTH;
     public Animal(int x, int y) {
         super(x, y);
-        currentEnergy = 10;
+        currentEnergy = 15;
         moved = false;
         energyDepleted = false;
     }

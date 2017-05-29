@@ -5,10 +5,13 @@
 public class Herbivore extends Animal
 {
     public static final int MAX_AGE = 20;
-
+   
     public Herbivore(int x, int y)
     {
         super(x,y);
+        MAX_ENERGY_SO_STOP_EAT = 30;
+        MIN_ENERGY_TO_GIVE_BIRTH = 10;
+        MIN_AGE_TO_GIVE_BIRTH = 7;
     }
 
     public int[][] checkCanEat(Grid g)

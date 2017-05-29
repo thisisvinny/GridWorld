@@ -5,10 +5,13 @@
 public class Carnivore extends Animal
 {
     public static final int MAX_AGE = 15;
-
+    
     public Carnivore(int x, int y)
     {
         super(x,y);
+        MAX_ENERGY_SO_STOP_EAT = 25;
+        MIN_ENERGY_TO_GIVE_BIRTH = 15;
+        MIN_AGE_TO_GIVE_BIRTH = 9;
     }
 
     public int[][] checkCanEat(Grid g)
