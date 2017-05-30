@@ -2,8 +2,12 @@
 // EACH HERBIVORE
 
 public class Herder extends Entity {
+    private Herbivore[] herbPack = new Herbivore[3];
 	public Herder(int x, int y){
 		super(x, y);
+        // for(int i = 0; i < 3; i++)
+        //     herbPack[i] = new Herbivore()
+
 	}
 
     public boolean checkValidMove(Grid g, int newX, int newY) {
